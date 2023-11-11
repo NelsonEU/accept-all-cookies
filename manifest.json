@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "AcceptAllCookies",
+  "version": "1.0",
+  "description": "Accept all cookies on every new page",
+  "permissions": [
+    "tabs",
+    "webNavigation",
+    "scripting"
+  ],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
